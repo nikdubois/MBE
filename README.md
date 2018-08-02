@@ -92,7 +92,7 @@ The Warzone is a custom wargame that was built from the ground up for this cours
 a complete and consistent learning platform for us to release the labs and projects to the
 students. The wargame was built ontop of a vanilla Ubuntu 14.04 32-bit server install, and is
 modeled after existing local privilege escalation themed wargames. If you have ever played
-the fantastic [SmashTheStack IO](http://io.smashthestack.org/) wargame, the Warzone has a
+the fantastic [IO wargame](https://io.netgarage.org/) (formerly hosted at SmashTheStack), the Warzone has a
 somewhat similar structure.
 
 <p align="center">
@@ -149,8 +149,8 @@ We tried to keep the course fairly self contained but if you find yourself lost 
   <img src="/resources/images/ip_addr.png" alt="ip addr"/>
   </p>
   and then SSH using [PuTTY](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) or a command line client<br>
-  ```$ ssh lab1C@172.16.29.130```<br>
-  ```lab1C@172.16.130's password: lab01start```<br>
+  <code>$ ssh lab1C@172.16.29.130</code><br>
+  <code>lab1C@172.16.130's password: lab01start</code><br>
 * Navigate to `/levels/labXX` to begin<br>
   ```$ cd /levels/lab01```
 * The Warzone is structured like any local privilege escalation wargame.
@@ -282,6 +282,7 @@ International license [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/
 <p align="center">
 <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="/resources/images/cc-by-nc.png" alt="CC BY-NC 4.0"/></a>
 </p>
+
 **Code**
 
 The code in this repo is covered by the BSD 2-Clause license. You can view this license in [LICENSE](/LICENSE).
